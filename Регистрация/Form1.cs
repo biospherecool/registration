@@ -32,12 +32,12 @@ namespace Регистрация
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
-            label2.ForeColor = Color.Red;
+            label2.ForeColor = Color.Black;
         }
 
         private void label2_MouseLeave(object sender, EventArgs e)
         {
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.Violet;
 
         }
         Point a;
@@ -62,6 +62,11 @@ namespace Регистрация
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
